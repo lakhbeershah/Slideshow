@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide show</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+<div id="slideshow-container"></div>
+<script>
+  let slideshow = {
+    container: '#slideshow-container',
+    media: [
+      "ball.jpg", "ball.mp4", "begging-puppy.jpg", 
+      "corgi-boing.gif", "dinowalk.mp4", "dirty.mp4", 
+      "dog-with-many-balls.jpeg", "goldiejump.mp4", 
+      "puppy-snapping.gif", "step.mp4", "tippy.mp4", 
+      "wag.mp4"
+    ],
+    folder: 'imgs/',
+    autoplay: 'yes',
+    endless: 'yes'
+  }
+</script>
+<script src="slideshow.js"></script>
+</body>
+</html>
